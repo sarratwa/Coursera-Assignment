@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  background-color: #F8F9F9;
+  color: #2E4053;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-1{
+    float: left;
+    border: 1px solid blue;
+  }
+.col-lg-1 {
+	width:25%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1{
+    float: left;
+    border: 1px solid blue;
+  }
+.col-md-1 {
+    width: 50%;
+  }
+}
+}
